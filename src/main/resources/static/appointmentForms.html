@@ -1,0 +1,27 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment Form</title>
+</head>
+<body>
+
+    <h2>Book an Appointment</h2>
+
+	<form action="/bookAppoinment" method="post">
+	  
+	    Patient Name: <input type="text" name="patientName" required><br>
+		
+	    Doctor ID: <input type="text" name="doctorId" required><br>
+		
+	    Appointment Date: <input type="date" name="appointmentDate" required><br>
+		
+	    Time Slot: <input type="text" name="timeSlot" required><br>
+		
+	    Remarks: <input type="text" name="remarks"><br>
+		
+	    <input type="submit" value="Submit Appointment">
+	</form>
+
+</body>
+</html>

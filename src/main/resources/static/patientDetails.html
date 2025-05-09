@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Details</title>
+</head>
+<body>
+    <h2>Patient Details</h2>
+    
+
+    <div>
+        <p><strong>Name:</strong> <span th:text="${patient.name}"></span></p>
+        <p><strong>Age:</strong> <span th:text="${patient.age}"></span></p>
+        <p><strong>Gender:</strong> <span th:text="${patient.gender}"></span></p>
+        <p><strong>Phone:</strong> <span th:text="${patient.phone}"></span></p>
+        <p><strong>Email:</strong> <span th:text="${patient.email}"></span></p>
+        <p><strong>Address:</strong> <span th:text="${patient.address}"></span></p>
+    </div>
+
+ 
+    <div>
+        <p th:if="${message}" th:text="${message}"></p>
+    </div>
+
+    <a href="/patientForm">Go Back</a> 
+</body>
+</html>

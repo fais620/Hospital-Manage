@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+ body {
+ 
+       font-family: Arial, sans-serif;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       background-color: #f4f4f4;
+       background-image: url('images/HospitalPhoto.jpg');
+       background-repeat: no-repeat;
+       background-size: 2100px 960px;
+       margin : 0px;
+      
+       }
+
+header {
+	
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px; 
+        color: lightblue;
+              
+        }
+        
+.dashboard-header {
+    background-color: #004080; /* Deep blue background */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Padding around header */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    position: relative;
+       
+        }
+        
+.dashboard-header-link{
+	     display: inline-block;
+         background-color: #007bff;
+         color: white;
+         padding: 10px 15px;
+         border-radius: 5px;
+         text-decoration: none;
+	
+          }
+
+.header-content {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         
+            }
+
+.header-content h1 {
+	
+           font-size: 30px;
+           font-weight: bold;
+           margin: 0;
+           padding-bottom: 5px;
+    
+                 }
+
+.header-content h5 {
+	
+           font-size: 18px;
+           font-weight: normal;
+           margin: 5px 0;
+       
+                }
+                
+.logout-button {
+	
+           color: yellow;
+           text-decoration: none;
+		   
+           
+               }
+
+.logout-button:hover {
+	
+            color: darkred; 
+            
+               }
+
+                            
+
+.card-container {
+	
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: wrap;
+        gap: 100px; 
+        margin-top: 100px;
+       
+          
+        }
+
+ .card {
+ 
+        background-color: white;
+        border-radius: 100px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        text-align: center;
+        width: 250px;
+        box-shadow: 70px 70px 10px rgba(0, 0, 0, 0.9);
+        
+        }
+        
+.cards {
+	
+	    background-color: white;
+        border-radius: 100px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        text-align: center;
+        width: 250px;
+        box-shadow: 70px 70px 10px rgba(0, 0, 0, 0.9);
+       
+		
+        }
+        
+.cards-container {
+	
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: wrap;
+        gap: 100px; 
+        margin-top: 100px;
+        margin-bottom: 100px;
+          
+        }
+
+           
+
+     p  {
+     
+        font-size: 16px;
+        margin-bottom: 20px;
+         
+        }
+
+ .card-link {
+ 
+         display: inline-block;
+         background-color: #007bff;
+         color: white;
+         padding: 15px 0px;
+         border-radius: 5px;
+         text-decoration: none;
+          
+        }
+
+  .card-link:hover {
+  
+          background-color: #ff8040;
+           
+        }
+   

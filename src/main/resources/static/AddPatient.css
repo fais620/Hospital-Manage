@@ -1,0 +1,82 @@
+@charset "UTF-8";
+ body {
+        margin:0;
+        font-family: Arial, sans-serif;
+        background-color: lightgreen;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+        background-image: url('images/hospital.jpg');
+        background-repeat: no-repeat;
+        background-size: 2000px 950px;
+   
+     }
+
+       
+ .form-card {
+        width: 400px;
+        padding-top: 20px;
+        padding-right:20px;
+        padding-bottom:20px;
+        padding-left:20px;
+        background-color: white;
+        border-radius: 35px;
+        box-shadow: -110px 90px 4px 10px rgba(0, 0, 0, 0.5); 
+        margin: 100px auto;
+        text-align: center;
+        
+        }
+
+       
+ .form-card h2 {
+         text-align: center;
+         margin-bottom: 20px;
+         color: #333;
+         
+        }
+
+       
+ .form-card input[type="text"],
+ .form-card input[type="number"],
+ .form-card input[type="submit"] {
+          width: 100%; 
+          padding-top: 10px;
+          padding-right:10px;
+          padding-bottom:10px;
+          padding-left:10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc; 
+          border-radius: 5px;
+          box-sizing: border-box;
+          
+        }
+
+        
+		.form-card input[type="submit"] {
+		    background-color: green;
+		    color: white;
+		    border: none;
+		    font-size: 18px;
+		    padding: 14px 20px;
+		    cursor: pointer;
+		    width: 100%;
+		    border-radius: 8px;
+		}
+
+       
+		.form-card input[type="submit"]:hover {
+		    background-color: darkgreen;
+		    transform: scale(1.05);
+		    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+		}
+
+         .form-card label {
+            font-size: 16px;
+            color: #555;
+            text-align: center;
+            display: block;
+            font-weight: normal;
+            
+        }
+  

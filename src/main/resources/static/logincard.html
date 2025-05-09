@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="dashboard.js"></script>
+    <script src="Logout.js"></script>
+     
+    <link rel="icon" type="image/png" href="images/library1.png">
+    
+</head>
+
+<body>
+
+    <header class="dashboard-header">
+        <div class="header-content">
+            <h1>HOSPITAL ADMIN DASHBOARD</h1>
+            <h5>Welcome, <span class="admin-name"><%= session.getAttribute("session_name") %></span></h5>
+            <a href="Logincard.jsp" class="logout-button">Logout</a>
+        </div>
+    </header>
+    
+       
+
+    <div class="card-container">
+		
+        <div class="card">
+            <p>Patients Details</p>
+            <a href="PatientDash.html" class="card-link">Patients Details</a>
+        </div>
+
+        
+        <div class="card">
+            <p>Doctor Details</p>
+            <a href="AddDoctor.html" class="card-link">Doctor Details</a>
+        </div>
+
+        <div class="card">
+            <p>Appointment Detail</p>
+            <a href="bookAppointment" class="card-link">Appointment Details</a>
+        </div>
+        
+       
+        
+             
+    </div>
+    
+    
+    <div class="cards-container">
+        <div class="cards">
+            <p>Logout</p>
+              <a href="Logincard.jsp" class="card-link" onclick="return handleLogout()">LOGOUT BUTTON!</a>
+        </div>
+    </div>
+    
+    
+  
+    
+    
+</body>
+
+</html>

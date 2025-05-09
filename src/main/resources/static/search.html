@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head><title>Search Patient</title></head>
+
+<body>
+
+    <h2>Search Patient</h2>
+
+    <form action="/search" method="post">
+
+        <label for = "id">Enter Patient ID:</label>
+        <input type="text" name="id" required>
+		
+		<label for ="username">Username: </label><br>
+		<input type="text" id="username" name="username"><br><br>
+
+        <button type="submit">Search</button>
+
+    </form>
+
+    <p style="color:red;">${errorMessage}</p>
+
+</body>
+
+</html>
+
+   
